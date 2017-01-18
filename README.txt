@@ -1,0 +1,15 @@
+INSTRUCTIONS
+
+- Import grocery_store.sql into phpmyadmin
+- Extract the grocerystore folder into your wamp www folder 
+	C:\wamp\www\grocerystore OR
+	C:\wamp64\www\grocerystore-
+- Edit config.php to match your appropriate phpmyadmin credentials
+- Access the website at "localhost/grocerystore/"	
+- There are four login credentials, each providing descending levels of access for different user types.
+  The table in the report shows what each user type has access to: 
+	USERNAME: admin				PASSWORD: password
+	USERNAME: regional_manager  PASSWORD: password
+	USERNAME: store_manager		PASSWORD: password	
+	USERNAME: staff				PASSWORD: password
+- The sidebar on the left navigates through all of the functionality.
